@@ -11,7 +11,7 @@ This is a lightweight web app that uses a custom-trained YOLOv8 model to detect 
 ## How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/pothole-detector.git
+git clone https://github.com/Blazious/pothole_detection
 cd pothole-detector
 pip install -r requirements.txt
 python app.py
