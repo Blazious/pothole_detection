@@ -1,0 +1,17 @@
+# Pothole Detection App (Powered by YOLOv8 + Gradio)
+
+This is a lightweight web app that uses a custom-trained YOLOv8 model to detect potholes in uploaded images and videos. Built using Gradio, it provides a simple interface for end-users to test pothole detection instantly.
+
+## Features
+- 📷 Upload images for pothole detection.
+- 🎥 Upload short videos for pothole detection.
+- 🔊 Beep sound when a pothole is detected (in local mode).
+- 🌐 Can be hosted via platforms like Hugging Face Spaces or locally.
+
+## How to Run Locally
+
+```bash
+git clone https://github.com/your-username/pothole-detector.git
+cd pothole-detector
+pip install -r requirements.txt
+python app.py
